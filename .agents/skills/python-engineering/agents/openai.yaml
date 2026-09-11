@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Engineering"
+  short_description: "Typed, testable Python implementation"
+  default_prompt: "Use $python-engineering to implement this Python task."

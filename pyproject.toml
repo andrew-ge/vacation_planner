@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vacation-planner"
+version = "0.1.0"
+description = "A local-first multi-city vacation planner"
+requires-python = ">=3.10"
+dependencies = ["Flask>=3.1,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
