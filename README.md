@@ -4,12 +4,12 @@ A Python/Flask vacation planner for sequencing multiple cities, exporting an iti
 
 ## Run it
 
-From the project folder, create a virtual environment and install the one Python dependency:
+From the project folder, create a virtual environment and install all application and test dependencies:
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -e '.[dev]'
+pip install -r requirements.txt
 flask --app vacation_planner:create_app run --host 127.0.0.1 --port 8000
 ```
 

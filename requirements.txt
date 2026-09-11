@@ -1,0 +1,8 @@
+# Install the application itself so the src/ package is importable.
+-e .
+
+# Runtime dependency.
+Flask>=3.1,<4
+
+# Development and test dependency.
+pytest>=8,<9

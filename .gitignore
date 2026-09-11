@@ -228,3 +228,6 @@ Hotel/
 
 #temp folder
 temp/
+
+#test folder
+tests/
