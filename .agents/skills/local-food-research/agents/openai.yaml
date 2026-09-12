@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Food Research"
+  short_description: "Source-backed local dining research"
+  default_prompt: "Use $local-food-research to find local food for my trip."
